@@ -1,0 +1,25 @@
+<HTML>
+    <BODY>
+        <H2>Welcome to the BCPWM Compiled Rule (.bcr) Upload Site</H2>
+            <h3>Site Info:</h3>
+            Site Name: <input id="site" type="text"><br>
+            Account: <select id="acct">
+                <option value="root">root</option>
+                <option value="admin">admin</option>
+                <option value="www">www</option>
+                <option value="webmaster">webmaster</option>
+            </select><br>
+            <button type="button" 
+                    id="set-site" 
+                    onclick="bcrform.action='/post-rule/init/'+site.value+'/'+acct.value;
+                    email.value=acct.value+'@'+site.value">OK</button><br>
+            (Confirmation email will be sent to: <output id="email"></output>)<br>
+        <form method="post" enctype="multipart/form-data" id="bcrform">
+            <h3>Select Rule File:</h3>
+            <input type="file" name="file"><br><br>
+            Once you click submit, a confirmation link will be sent to the email address above, completing the rule posting process.
+            <br><br>
+            <input type="submit">
+        </form>
+    </BODY>
+</HTML>

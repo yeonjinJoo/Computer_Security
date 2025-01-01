@@ -1,0 +1,13 @@
+{ 
+  "chars":"abcABC",
+  "min_length":"6",
+  "max_length":"8",
+  "rules": {
+	  "0":"[[:alpha:]]",
+	  "1":"[[:upper:]]"
+  },
+  "min_rules":"2",
+  "num_rules":"2",
+  "site":"fail.com"
+}
+  

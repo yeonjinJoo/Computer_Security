@@ -1,0 +1,15 @@
+{ 
+  "chars":"ab";
+  "min_length":"8",
+  "max_length":"12",
+  "rules": {
+	  "0":"[[:alpha:]]",
+	  "1":"a",
+	  "2":"b",
+  },
+  "min_rules":"1",
+  "num_rules":"3",
+  "site":"example.com",
+  "site":"bcpwm.com"
+}
+  

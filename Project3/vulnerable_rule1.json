@@ -1,0 +1,11 @@
+{
+  "chars":"a",
+  "min_length":"1",
+  "max_length":"2",
+  "rules": {
+    "0":"[[:alpha:]]"
+  },
+  "min_rules":"1",
+  "num_rules":"1",
+  "site":"vulnerable.com"
+}
